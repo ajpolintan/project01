@@ -19,7 +19,7 @@ public class project01 {
 				boolean comma = true;
 				String data = myReader.nextLine();
 				String[] splitnewData = data.split(",");
-
+//hello
 				
 				for(int i = 0; i < splitnewData.length;i++) {
 					if(splitnewData[i].contains("character") || splitnewData[i].contains("name")) {
